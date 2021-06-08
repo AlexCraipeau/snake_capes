@@ -1,0 +1,11 @@
+Deux versions du projet snake sont proposées ici :
+-   Une première, snake_gui, utilise la bibliothèque pygame pour créer un jeu du Snake.
+    Les bordures sont mortelles pour le serpent.
+    Il n'existe qu'un fruit à la fois.
+    Cette version ne contient pas de fonction, de pile ou de file.
+
+-   Une seconde, snake_terminal, utilise un affichage intra-terminal à l'aide de la bibliothèque curses.
+    Le serpent peut passer à travers les bordures (téléportation de l'autre côté de l'écran)
+    Des fruits apparaissent à intervalle régulier.
+    Un système de score basique est mis en place (sans sauvegarde)
+    Cette version utilise le principe de fonctionnement des files et est segmentée en fonction.
